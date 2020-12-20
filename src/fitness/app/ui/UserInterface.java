@@ -152,7 +152,7 @@ public class UserInterface {
 		System.out.printf("Over the course of %d days your weight has changed by %d", userService.getTimePeriod(), userService.getWeightDifference());
 	}
 	public void commandFive() {
-		startup(); //for some unexplained reason executes commandFour() no matter what (be it startup() or this.launch() with resetting variables
+		startup();
 	}
 }
 
